@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Portofolio Wulan Dwi Anggraeni</title>
+  <meta name="description" content="Website Portofolio Wulan Dwi Anggraeni.">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <div class="container nav">
+      <div class="brand">Portofolio</div>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#social">Social</a></li>
+        </ul>
+      </nav>
+      <div class="hamburger" aria-hidden="true">☰</div>
+    </div>
+  </header>
+  <main class="container">
+
+
+    
+    <!-- HERO -->
+    <section id="home" class="hero">
+      <div class="hero-left">
+        <h1>Hai — ini Wulan. <br> Mahasiswa Informatika Universitas Jember Angkatan 2024.</h1>
+        <a class="cta" href="#about">About Me</a>
+      </div>
+
+      <div class="card-portrait">
+        <img class="portrait" src="pphomee.jpg" alt="Foto Wulan">
+      </div>
+    </section>
+
+
+
+
+    <!-- ABOUT -->
+    <section id="about" class="about">
+      <img src="pp about.jpg" alt="Foto profil">
+      <div class="text">
+        <h2>About Me</h2>
+        <p>haloooo! aku Wulan Dwi Anggraeni, kalian bisa panggil aku wulan. Aku mahasiswa Informatika Universitas Jember. Saat ini aku masih menempuh semester 3.</p>
+      </div>
+    </section>
+
+
+
+    <!-- EDUCATION -->
+    <section id="education" class="education">
+      <h2>Education</h2>
+      <div class="edu-grid">
+        <div class="edu-block">
+          <h3>SMA (2021 - 2024)</h3>
+          <div class="edu-photos">
+            <img src="sma1.jpg" alt="Foto SMA 1">
+            <img src="sma2.jpg" alt="Foto SMA 2">
+            <img src="sma3.jpg" alt="Foto SMA 3">
+          </div>
+        </div>
+        <div class="edu-block">
+          <h3>Kuliah (Sekarang)</h3>
+          <div class="edu-photos">
+            <img src="kuliah1.jpg" alt="Foto Kuliah 1">
+            <img src="kuliah2.jpg" alt="Foto Kuliah 2">
+            <img src="kuliah3.jpg" alt="Foto Kuliah 3">
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+    <!-- PROJECTS -->
+    <section id="projects" class="projects">
+      <h2>Projects</h2>
+      <div class="grid">
+        <article class="projects">
+          <h3>Wotani</h3>
+          <p>Aplikasi yang mendukung para petani untuk transaksi pupuk dan bibit, serta memberikan panduan takaran yang tepat sesuai kebutuhan.</p>
+        </article>
+
+        <article class="projects">
+          <h3>GramedFinder</h3>
+          <p>Aplikasi jual beli buku di Gramedia.</p>
+        </article>
+
+        <article class="projects">
+          <h3>BrownyGift</h3>
+          <p>Aplikasi Pemesanan Dan Kustomisasi Buket Berbasis Kemitraan UMKM.</p>
+        </article>
+
+        <article class="projects">
+          <h3>Website Portofolio</h3>
+          <p>Website portofolio personal.</p>
+        </article>
+      </div>
+    </section>
+
+
+
+
+<!-- SOCIAL -->
+    <section id="social" class="social">
+      <h2>Social</h2>
+      <div class="grid">
+
+        <article class="social-card">
+          <h3>Instagram</h3>
+          <p>Yuk, intip keseharian dan update seru aku di Instagram!.</p>
+          <a href="https://www.instagram.com/wllndggrn_?igsh=ZDEwcXc4Z212d2M3" target="_blank">
+            <button>Follow</button>
+          </a>
+        </article>
+
+        <article class="social-card">
+          <h3>WhatsApp</h3>
+          <p>Boleh kok kalau ada apa apa menghubungi aku.</p>
+          <a href="https://wa.me/6285334088301" target="_blank">
+            <button>Chat</button>
+          </a>
+        </article>
+
+        <article class="social-card">
+          <h3>LinkedIn</h3>
+          <p>Lagi cari partner kolaborasi? Gas infokan aja.</p>
+          <a href="www.linkedin.com/in/wulan-anggraeni-1a2981330" target="_blank">
+            <button>Connect</button>
+          </a>
+        </article>
+
+        <article class="social-card">
+          <h3>Roblox</h3>
+          <p>Aku juga suka main di Roblox, gas mabar!.</p>
+          <a href="https://www.roblox.com/share?code=30d99d268a08ed48b5b81e3ab6c3cfd8&type=Profile&source=ProfileShare&stamp=1758779177671" target="_blank">
+            <button>View</button>
+          </a>
+        </article>
+      </div>
+    </section>
+  </main>
+
+
+<!-- Pop-up Detail -->
+  <div id="popup" class="popup" role="dialog" aria-hidden="true">
+    <div class="popup-content">
+      <button id="closePopup" style="float:right;background:transparent;border:none;color:var(--muted);font-size:20px;cursor:pointer">✕</button>
+      <h3 id="popupTitle"></h3>
+      <p id="popupDesc" style="color:var(--muted)"></p>
+    </div>
+  </div>
+
+  <footer>
+    <div class="container">© 2025 Wulan Informatika UNEJ</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
